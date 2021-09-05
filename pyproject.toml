@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["sizer <shinse.tanaka@gmail.com>"]
 
+[tool.poetry.scripts]
+start = "akinator.main:start"
+
 [tool.poetry.dependencies]
 python = "^3.7"
 
