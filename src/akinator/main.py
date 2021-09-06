@@ -1,5 +1,8 @@
+from akinator.cli import main
+
+
 def start():
-    print("Hello, World!!")
+    main.do()
 
 
 if __name__ == '__main__':

@@ -8,7 +8,9 @@ authors = ["sizer <shinse.tanaka@gmail.com>"]
 start = "akinator.main:start"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.7.11"
+click = "^8.0.1"
+pandas = "^1.3.2"
 
 [tool.poetry.dev-dependencies]
 
